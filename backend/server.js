@@ -51,9 +51,4 @@ app
     res.send(`delete request is sending on port ${PORT}`);
     })
 
-app.use((err, req, res)=>{
-    console.error(err.stack);
-    res.status(500).send(`Red Alert ${err.stack}`);
-})
-
 app.listen(5000, console.log(`Server is running in ${process.env.NODE_ENV} mode on port ${PORT}`));
