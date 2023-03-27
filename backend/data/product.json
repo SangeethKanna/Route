@@ -2,7 +2,7 @@
     {
      "type": "biscuit",
      "id": 1,
-     "name": "OREO vanilla cream biscuit",
+     "productname": "Oreo vanilla cream biscuit",
      "weight": "45g",
      "quantity": 1,
      "price": 20
@@ -10,7 +10,7 @@
     {
      "type": "biscuit",
      "id": 2,
-     "name": "OREO vanilla cream biscuit,Family pack",
+     "productname": "Oreo vanilla cream biscuit Family pack",
      "weight": "290g",
      "quantity": 1,
      "price": 190
@@ -18,7 +18,7 @@
     {
      "type": "chocolate",
      "id": 3,
-     "name": "5 STAR chocolate bar",
+     "productname": "Dairy Milk chocolate bar",
      "weight": "42g",
      "quantity": 1,
      "price": 45
@@ -26,7 +26,7 @@
     {
      "type": "soft drink",
      "id": 4,
-     "name": "CoCa Cola-deit coke soft drink",
+     "productname": "Coco Cola-deit coke soft drink",
      "weight": "300ml",
      "quantity": 1,
      "price": 40
@@ -34,7 +34,7 @@
     {
      "type": "soaps",
      "id": 5,
-     "name": "LUX soap family pack of 4",
+     "productname": "Dove soap family pack of four",
      "weight": "4x150g",
      "quantity": 4,
      "price": 125
@@ -42,7 +42,7 @@
     {
      "type": "flour",
      "id": 6,
-     "name": "AASHIRVAD-Whole Wheat Flour ",
+     "productname": "Whole Wheat Flour ",
      "weight": "1Kg",
      "quantity": 1,
      "price": 60
@@ -50,7 +50,7 @@
     {
      "type": "oil",
      "id": 7,
-     "name": "Sunflower-Refined Cooking oil",
+     "productname": "Sunflower-Refined Cooking oil",
      "weight": "1L",
      "quantity": 1,
      "price": 400
@@ -58,7 +58,7 @@
     {
      "type": "toothpaste",
      "id": 8,
-     "name": "COLGATE -toothpaste PACK of 2",
+     "productname": "Colgate -toothpaste PACK of two",
      "weight": "300gx2",
      "quantity": 2,
      "price": 240
@@ -66,7 +66,7 @@
     {
      "type": "fruits",
      "id": 9,
-     "name": "FRESHO-Grapes",
+     "productname": "Grapes",
      "weight": "500g",
      "quantity": 1,
      "price": 50
@@ -74,7 +74,7 @@
     {
      "type": "fruits",
      "id": 10,
-     "name": "FRESHO-Blueberry",
+     "productname": "Blueberry",
      "weight": "125g",
      "quantity": 1,
      "price": 200
@@ -82,7 +82,7 @@
     {
      "type": "soaps",
      "id": 11,
-     "name": "LUX SOAP Single pack",
+     "productname": "Dove soap Single pack",
      "weight": "125g",
      "quantity": 1,
      "price": 45
@@ -90,7 +90,7 @@
     {
      "type": "grocery",
      "id": 12,
-     "name": "BROWN SUGAR",
+     "productname": "Brown sugar",
      "weight": "220G",
      "quantity": 1,
      "price": 80

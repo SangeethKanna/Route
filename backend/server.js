@@ -4,7 +4,8 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/db.js");
 const data = require("./data/product.json");
 const favicon = require("serve-favicon");
-const path = require("path"); 
+const path = require("path");
+const user = require("./models/User"); 
 
 dotenv.config();
 
@@ -24,14 +25,44 @@ app.use(cors());
 
 app.use(express.static(__dirname + "/public"));
 
-app.get('/product/:id' , (req,res) =>{
+app.get('/product/:name' , (req,res) =>{
     //res.send(`get request is sending on port ${PORT}`);
-    console.log(req.params.id);
-    let user = Number(req.params.id);
+    console.log(req.params.name);
+    let user = (req.params.name);
     console.log(user);
     console.log(data[user]);
     res.send(data[user]);
 });
+
+app.route('/searchproducts').get((req,res) =>{
+    let value = req.query.name;
+    user.find({name:{
+        
+    }}).then(data => res.send(data));
+});
+
+app.use('/productsearch', (req, res, next) => {
+    const filters = req.query;
+    const filteredUsers = data.filter(user => {
+      let isValid = true;
+      for (key in filters) {
+        console.log(key, user[key], filters[key]);
+        isValid = isValid && user[key] == filters[key];
+      }
+      return isValid;
+    });
+    res.send(filteredUsers);
+  });
+
+app.route('/postcar').get((req,res) =>{
+  
+   user.find({},(err,vehi) => {
+       if(err){
+           res.send(err)
+       }
+       res.json(vehi)
+   })
+})
 
 app
     .route("/products")  
