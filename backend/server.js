@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors")
 const dotenv = require("dotenv");
 const connectDB = require("./config/db.js");
-const data = require("./data/people.json");
+const data = require("./data/product.json");
 const favicon = require("serve-favicon");
 const path = require("path"); 
 
@@ -24,7 +24,7 @@ app.use(cors());
 
 app.use(express.static(__dirname + "/public"));
 
-app.get('/user/:id' , (req,res) =>{
+app.get('/product/:id' , (req,res) =>{
     //res.send(`get request is sending on port ${PORT}`);
     console.log(req.params.id);
     let user = Number(req.params.id);
@@ -34,7 +34,7 @@ app.get('/user/:id' , (req,res) =>{
 });
 
 app
-    .route("/profiles")  
+    .route("/products")  
     .get((req,res) =>{
     console.log(`Request from: ${req.originalUrl}`);
     console.log(`Request type: ${req.method}`);    
