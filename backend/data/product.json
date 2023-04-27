@@ -438,7 +438,7 @@
     },
     {
      "type": "fruits",
-     "id": 54,
+     "id": 49,
      "productname": "orange",
      "weight": "500g",
      "quantity": 1,
@@ -447,7 +447,7 @@
     },
     {
      "type": "fruits",
-     "id": 59,
+     "id": 50,
      "productname": "black seedless grapes",
      "weight": "500g",
      "quantity": 1,
@@ -457,7 +457,7 @@
     },
     {
      "type": "fruits",
-     "id": 61,
+     "id": 51,
      "productname": "sapota",
      "weight": "500g",
      "quantity": 1,
@@ -466,7 +466,7 @@
     },
     {
      "type": "fruits",
-     "id": 49,
+     "id": 52,
      "productname": "guava",
      "weight": "500g",
      "quantity": 1,
@@ -475,7 +475,7 @@
     },
     {
      "type": "fruits",
-     "id": 52,
+     "id": 53,
      "productname": "green grapes",
      "weight": "500g",
      "quantity": 1,
@@ -484,7 +484,7 @@
     },
     {
      "type": "fruits",
-     "id": 53,
+     "id": 54,
      "productname": "pomegranate",
      "weight": "1kg",
      "quantity": 1,
@@ -493,7 +493,7 @@
     },
     {
      "type": "fruits",
-     "id": 56,
+     "id": 55,
      "productname": "banana",
      "weight": "500g",
      "quantity": 1,
@@ -502,7 +502,7 @@
     },
     {
      "type": "fruits",
-     "id": 50,
+     "id": 56,
      "productname": "blueberry",
      "weight": "125g",
      "quantity": 1,
@@ -511,7 +511,7 @@
     },
     {
      "type": "fruits",
-     "id": 60,
+     "id": 57,
      "productname": "avocado",
      "weight": "500g",
      "quantity": 1,
@@ -520,7 +520,7 @@
     },
     {
      "type": "fruits",
-     "id": 57,
+     "id": 58,
      "productname": "Apple",
      "weight": "1kg",
      "quantity": 1,
@@ -529,7 +529,7 @@
     },
     {
      "type": "fruits",
-     "id": 51,
+     "id": 59,
      "productname": "kiwi",
      "weight": "200g",
      "quantity": 1,
@@ -538,7 +538,7 @@
     },
     {
      "type": "fruits",
-     "id": 55,
+     "id": 60,
      "productname": "watermelon",
      "weight": "2kg",
      "quantity": 1,
@@ -547,7 +547,7 @@
     },
     {
      "type": "fruits",
-     "id": 58,
+     "id": 61,
      "productname": "mango",
      "weight": "1kg",
      "quantity": 1,
@@ -572,7 +572,6 @@
      "price": 104,
      "recommandation": "season fruits"
     },
-    null,
     {
      "type": "grocery",
      "id": 64,
@@ -690,7 +689,6 @@
      "price": 500,
      "recommandation": "essential groceries"
     },
-    null,
     {
      "type": "hair care",
      "id": 77,
@@ -754,7 +752,6 @@
      "price": 400,
      "recommandation": "oil"
     },
-    null,
     {
      "type": " snacks and branded foods",
      "id": 84,
@@ -1240,14 +1237,5 @@
      "quantity": 1,
      "price": 1450,
      "recommandation": "essential groceries"
-    },
-    {
-     "id": 138
-    },
-    {
-     "id": 139
-    },
-    {
-     "id": 140
     }
    ]
