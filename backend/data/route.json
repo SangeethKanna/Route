@@ -1,0 +1,212 @@
+[
+    {
+     "from ": "entrance",
+     "to": "biscuit",
+     "route": "take a right and walk a 40 steps and the biscuit section is on your left"
+    },
+    {
+     "from ": "entrance",
+     "to": "fruits",
+     "route": "take a left and walk 20 steps and the fruits section is on your right"
+    },
+    {
+     "from ": "entrance",
+     "to": "households",
+     "route": "walk straight a 40 steps from here and the household section is opposite to you"
+    },
+    {
+     "from ": "entrance",
+     "to": "grocery",
+     "route": "take a right and walk a 20 steps and the grocery section is on your left"
+    },
+    {
+     "from ": "entrance",
+     "to": "vegetables",
+     "route": "take a left and walk 40 steps and the vegetables section is on your right"
+    },
+    {
+     "from ": "entrance",
+     "to": "snacks",
+     "route": "walk straight a 20 steps from here and snacks section is on your left"
+    },
+    {
+     "from ": "biscuit",
+     "to": "entrance",
+     "route": "walk a 10 steps from here and turn right walk 20 steps and the entrance is at your left"
+    },
+    {
+     "from ": "biscuit",
+     "to": "fruits",
+     "route": "walk a 10 steps from here and turn right walk 30 steps and turn right to reach the fruits section"
+    },
+    {
+     "from ": "biscuit",
+     "to": "households",
+     "route": "walk a 20 steps from here and household section is on your opposite"
+    },
+    {
+     "from ": "biscuit",
+     "to": "grocery",
+     "route": "walk a 10 steps from here and take immediate right to reach the grocery section"
+    },
+    {
+     "from ": "biscuit",
+     "to": "vegetables",
+     "route": "walk a 10 steps from here and turn right walk 40 steps and turn right to reach the vegetables section"
+    },
+    {
+     "from ": "biscuit",
+     "to": "snacks",
+     "route": "walk a 10 steps from here and turn right walk 20 steps and the snacks is at your right"
+    },
+    {
+     "from ": "fruits",
+     "to": "biscuit",
+     "route": "walk straight for 10 steps and turn right and walk 30 steps and turn right to reach the biscuit section"
+    },
+    {
+     "from ": "fruits",
+     "to": "entrance",
+     "route": "turn around and walk 10 steps and turn left to reach the entrance"
+    },
+    {
+     "from ": "fruits",
+     "to": "households",
+     "route": "walk straight 10 steps to reach the households section"
+    },
+    {
+     "from ": "fruits",
+     "to": "grocery",
+     "route": "walk straight 10 steps and turn right and walk 20 steps and turn right to reach the grocery section"
+    },
+    {
+     "from ": "fruits",
+     "to": "vegetables",
+     "route": "vegetable section is on your left"
+    },
+    {
+     "from ": "fruits",
+     "to": "snacks",
+     "route": "walk straight 10 steps and turn right and walk 10 steps and turn right to reach the snacks section"
+    },
+    {
+     "from ": "households",
+     "to": "biscuit",
+     "route": "walk a 20 steps from here and take a right to reach biscuit section"
+    },
+    {
+     "from ": "households",
+     "to": "fruits",
+     "route": "turn around and walk 10 steps and turn left to reach the fruits section"
+    },
+    {
+     "from ": "households",
+     "to": "entrance",
+     "route": "turn right and walk straight for 30 steps to reach the entrance"
+    },
+    {
+     "from ": "households",
+     "to": "grocery",
+     "route": "walk a 10 steps from here and take a right to reach grocery section"
+    },
+    {
+     "from ": "households",
+     "to": "vegetables",
+     "route": "turn around and walk 20 steps and turn left to reach the vegetables section"
+    },
+    {
+     "from ": "households",
+     "to": "snacks",
+     "route": "turn right and walk straight for 15 steps to reach the snacks section"
+    },
+    {
+     "from ": "grocery",
+     "to": "biscuit",
+     "route": "walk straight for 10 steps and take an immediate right to reach the biscuit section"
+    },
+    {
+     "from ": "grocery",
+     "to": "fruits",
+     "route": "walk straight for 10 steps and take left and walk 20 steps to reach the fruits section"
+    },
+    {
+     "from ": "grocery",
+     "to": "households",
+     "route": "walk straight for 10 steps to reach the households section"
+    },
+    {
+     "from ": "grocery",
+     "to": "entrance",
+     "route": "take a  turnabout and walk straight for 10 steps to reach the entrance"
+    },
+    {
+     "from ": "grocery",
+     "to": "vegetables",
+     "route": "walk straight for 10 steps and take left and walk 30 steps to reach the vegetables section"
+    },
+    {
+     "from ": "grocery",
+     "to": "snacks",
+     "route": "walk straight for 10 steps and take an immediate left to reach the snacks section"
+    },
+    {
+     "from ": "vegetables",
+     "to": "biscuit",
+     "route": "walk straight for 10 steps and take right and walk 40 steps to reach the biscuits section"
+    },
+    {
+     "from ": "vegetables",
+     "to": "fruits",
+     "route": "walk straight for 10 steps and take an immediate right to reach the fruits section"
+    },
+    {
+     "from ": "vegetables",
+     "to": "households",
+     "route": "walk straight for 10 steps to reach the households section"
+    },
+    {
+     "from ": "vegetables",
+     "to": "grocery",
+     "route": "walk straight for 10 steps and take right and walk 30 steps to reach the grocery section"
+    },
+    {
+     "from ": "vegetables",
+     "to": "entrance",
+     "route": "take a  turnabout and walk straight for 10 steps to reach the entrance"
+    },
+    {
+     "from ": "vegetables",
+     "to": "snacks",
+     "route": "walk straight for 10 steps and take right and walk 30 steps to reach the snacks section"
+    },
+    {
+     "from ": "snacks",
+     "to": "biscuit",
+     "route": "walk straight for 10 steps and turn right and walk 20 steps and turn right to reach the biscuit section"
+    },
+    {
+     "from ": "snacks",
+     "to": "fruits",
+     "route": "walk straight for 10 steps and take left and walk 10 steps to reach the fruits section"
+    },
+    {
+     "from ": "snacks",
+     "to": "households",
+     "route": "walk straight for 10 steps to reach the households section"
+    },
+    {
+     "from ": "snacks",
+     "to": "grocery",
+     "route": "walk straight for 10 steps and turn right and walk 10 steps and turn right to reach the biscuit section"
+    },
+    {
+     "from ": "snacks",
+     "to": "vegetables",
+     "route": "walk straight for 10 steps and take left and walk 20 steps to reach the fruits section"
+    },
+    {
+     "from ": "snacks",
+     "to": "entrance",
+     "route": "take a  turnabout and walk straight for 10 steps to reach the entrance"
+    }
+]
